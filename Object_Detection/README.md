@@ -121,18 +121,15 @@ Test set의 mAP50(Mean Average Precision)로 평가
             모든 이미지의 각 클래스별 AP 계산 후, 평균내어 최종 점수가 구해집니다.
             
         
-        ![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/005d7efe-0301-489f-9146-ef4ad56945a3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211016%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211016T113948Z&X-Amz-Expires=86400&X-Amz-Signature=daec222beca2631f8c96f355adc1cdfa8ade2122eb76941a8de4c94909b70365&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
-        
-
-
-
+        ![](https://user-images.githubusercontent.com/49435163/146513502-361d33fe-c3bb-4fe4-8f69-c6c6e8c06532.png)
 
 
 # 문제 정의
 
-- __시각화__
+- __시각화__  
 
-![images](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b0ff425c-f802-4188-a4df-41b1befbd3eb/BoxesPerCategory.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211016%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211016T114011Z&X-Amz-Expires=86400&X-Amz-Signature=ca7a2ae161882c480c242d4ee9bfa9b5649152beee74cf07809810929b373c8e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22BoxesPerCategory.png%22)
+<p align="center"><img src=https://user-images.githubusercontent.com/49435163/146513695-3728c139-4ca5-49e7-a65a-fe1cd9bd32e1.png></p>
+
 위 이미지에서 보이는 바와 같이 Class별 bbox 수의 불균형이 심하고, 배터리의 경우 데이터 수가 159개(평균 2,314 개)뿐입니다.
 
 <p align="center"><img src="https://i.imgur.com/DFKDvXF.png"></p>
@@ -196,9 +193,8 @@ Test set의 mAP50(Mean Average Precision)로 평가
 <br>
 <br>
 
-
 <div>
-<center><img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fe34061b-1c71-4d04-9e68-94c8a462e7d9/confusion_matrix.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211016%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211016T113908Z&X-Amz-Expires=86400&X-Amz-Signature=fe612e73417194c63f47e5655c597bb2c726182b55ac2cc9f89f9ec9a2ac2a71&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22confusion_matrix.png%22"></center>
+<center><img src=https://user-images.githubusercontent.com/49435163/146514228-8569412f-46fd-4cc2-8d25-3b0229abba8d.png></center>
 
 
 </div>
