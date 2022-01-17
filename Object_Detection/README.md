@@ -120,15 +120,14 @@ Test set의 mAP50(Mean Average Precision)로 평가
             
             모든 이미지의 각 클래스별 AP 계산 후, 평균내어 최종 점수가 구해집니다.
             
-        
-        ![](https://user-images.githubusercontent.com/49435163/146513502-361d33fe-c3bb-4fe4-8f69-c6c6e8c06532.png)
+
 
 
 # 문제 정의
 
 - __시각화__  
 
-<p align="center"><img src=https://user-images.githubusercontent.com/49435163/146513695-3728c139-4ca5-49e7-a65a-fe1cd9bd32e1.png></p>
+<p align="center"><img src=https://i.imgur.com/UykX7pM.png></p>
 
 위 이미지에서 보이는 바와 같이 Class별 bbox 수의 불균형이 심하고, 배터리의 경우 데이터 수가 159개(평균 2,314 개)뿐입니다.
 
